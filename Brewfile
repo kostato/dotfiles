@@ -35,27 +35,39 @@ install homebrew/dupes/grep
 install homebrew/dupes/screen
 install homebrew/php/php55 --with-gmp
 
+# Install some CTF tools; see https://github.com/ctfs/write-ups
+install bfg
+install binwalk
+install dex2jar
+install dns2tcp
+install fcrackzip
+install foremost
+install hashpump
+install hydra
+install john
+install knock
+install nmap
+install pngcheck
+install sqlmap
+install tcpreplay
+install ucspi-tcp # `tcpserver` et al.
+install xpdf
+install xz
+
 # Install other useful binaries
 install ack
-install bfg
 #install exiv2
-install foremost
 install git
-install hashpump
 install imagemagick --with-webp
 install lynx
-install nmap
 install node # This installs `npm` too using the recommended installation method
 install p7zip
 install pigz
 install pv
 install rename
 install rhino
-install sqlmap
 install tree
-install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-install xpdf
 install zopfli
 
 install homebrew/versions/lua52
