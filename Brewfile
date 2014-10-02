@@ -26,8 +26,8 @@ install wget --enable-iri
 
 # Install RingoJS and Narwhal
 # Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+#install ringojs
+#install narwhal
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
@@ -36,23 +36,23 @@ install homebrew/dupes/screen
 install homebrew/php/php55 --with-gmp
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups
-install bfg
-install binwalk
-install dex2jar
-install dns2tcp
-install fcrackzip
-install foremost
-install hashpump
-install hydra
-install john
-install knock
-install nmap
+#install bfg
+#install binwalk
+#install dex2jar
+#install dns2tcp
+#install fcrackzip
+#install foremost
+#install hashpump
+#install hydra
+#install john
+#install knock
+#install nmap
 install pngcheck
 install sqlmap
-install tcpreplay
+#install tcpreplay
 install ucspi-tcp # `tcpserver` et al.
 install xpdf
-install xz
+#install xz
 
 # Install other useful binaries
 install ack
@@ -61,16 +61,35 @@ install git
 install imagemagick --with-webp
 install lynx
 install node # This installs `npm` too using the recommended installation method
-install p7zip
+#install p7zip
 install pigz
-install pv
+#install pv
 install rename
 install rhino
 install tree
 install webkit2png
-install zopfli
+#install zopfli
 
-install homebrew/versions/lua52
+#install homebrew/versions/lua52
+
+install mongodb
+install mysql
+install sqlite
+install redis
+
+install maven
+install ant
+install autoconf
+install automake
+
+install openssl
+install autossh
+install ssh-copy-id
+
+install freetype
+install gettext
+install markdown
+install pandoc
 
 # Remove outdated versions from the cellar
 cleanup
