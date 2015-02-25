@@ -1,6 +1,7 @@
-# Mathias’s dotfiles
+# Kosta's dotfiles
+Forked from [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
 
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+![Screenshot of my shell prompt]()
 
 ## Installation
 
